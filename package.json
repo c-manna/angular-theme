@@ -1,7 +1,7 @@
 {
-  "name": "bamburgh-angular-admin-dashboard-ngx-bootstrap-pro",
+  "name": "angular-theme",
   "version": "1.0.0",
-  "title": "Bamburgh Angular Admin Dashboard with NGX Bootstrap PRO",
+  "title": "angular theme",
   "description": "It&#39;s the most complete frontend development solution that will help you build powerful &amp; scalable web applications or beautiful presentation websites.",
   "author": {
     "name": "UiFort.com",
@@ -10,7 +10,7 @@
   "license": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/uifort/bamburgh-angular-admin-dashboard-ngx-bootstrap-pro"
+    "url": ""
   },
   "scripts": {
     "ng": "ng",
