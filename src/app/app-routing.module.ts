@@ -11,6 +11,7 @@ import { PagesRecoverPasswordComponent } from './example-pages/pages-recover-pas
 import { PagesError404Component } from './example-pages/pages-error-404/pages-error-404.component';
 import { ButtonsComponent } from './example-pages/buttons/buttons.component';
 import { UtilitiesHelpersComponent } from './example-pages/utilities-helpers/utilities-helpers.component';
+import { SearchBarsComponent } from './example-pages/search-bars/search-bars.component';
 
 // Layouts
 
@@ -27,6 +28,7 @@ const routes: Routes = [
       { path: 'dashboard-default', component: DashboardDefaultComponent },
       { path: 'buttons', component: ButtonsComponent },
       { path: 'utilities-helpers', component: UtilitiesHelpersComponent },
+      { path: 'search-bars', component: SearchBarsComponent },
     ]
     },
     {

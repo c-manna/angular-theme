@@ -934,6 +934,7 @@ import { PagesRegisterComponent } from './example-pages/pages-register/pages-reg
 import { PagesRecoverPasswordComponent } from './example-pages/pages-recover-password/pages-recover-password.component';
 import { PagesError404Component } from './example-pages/pages-error-404/pages-error-404.component';
 import { ButtonsComponent } from './example-pages/buttons/buttons.component';
+import { SearchBarsComponent } from './example-pages/search-bars/search-bars.component';
 import { UtilitiesHelpersComponent } from './example-pages/utilities-helpers/utilities-helpers.component';
 
 @NgModule({
@@ -1448,6 +1449,7 @@ import { UtilitiesHelpersComponent } from './example-pages/utilities-helpers/uti
     PagesRecoverPasswordComponent,
     PagesError404Component,
     ButtonsComponent,
+    SearchBarsComponent,
     UtilitiesHelpersComponent,
 
   ],

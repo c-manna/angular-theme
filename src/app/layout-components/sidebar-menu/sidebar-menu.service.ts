@@ -93,10 +93,15 @@ export class SidebarMenuService {
         "link": "/buttons"
       },
       {
+        "title": "Search Bars",
+        "type": "simple",
+        "link": "/search-bars"
+      }/* ,
+      {
         "title": "Utilities & Helpers",
         "type": "simple",
         "link": "/utilities-helpers"
-      }
+      } */
     ]
   }
 ];
