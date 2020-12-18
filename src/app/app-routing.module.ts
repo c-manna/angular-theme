@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 // Pages
-
 import { DashboardDefaultComponent } from './example-pages/dashboard-default/dashboard-default.component';
 import { ApplicationsChatComponent } from './example-pages/applications-chat/applications-chat.component';
 import { PagesLoginComponent } from './example-pages/pages-login/pages-login.component';
@@ -12,9 +11,11 @@ import { PagesError404Component } from './example-pages/pages-error-404/pages-er
 import { ButtonsComponent } from './example-pages/buttons/buttons.component';
 import { UtilitiesHelpersComponent } from './example-pages/utilities-helpers/utilities-helpers.component';
 import { SearchBarsComponent } from './example-pages/search-bars/search-bars.component';
+import { RegularTables2Component } from './example-pages/regular-tables-2/regular-tables-2.component';
+import { FormsToggleSwitchComponent } from './example-pages/forms-toggle-switch/forms-toggle-switch.component';
+import { TabsComponent } from './example-pages/tabs/tabs.component';
 
 // Layouts
-
 import { LeftSidebarComponent } from './layout-blueprints/left-sidebar/left-sidebar.component';
 import { CollapsedSidebarComponent } from './layout-blueprints/collapsed-sidebar/collapsed-sidebar.component';
 import { MinimalLayoutComponent } from './layout-blueprints/minimal-layout/minimal-layout.component';
@@ -29,6 +30,9 @@ const routes: Routes = [
       { path: 'buttons', component: ButtonsComponent },
       { path: 'utilities-helpers', component: UtilitiesHelpersComponent },
       { path: 'search-bars', component: SearchBarsComponent },
+      { path: 'regular-tables-2', component: RegularTables2Component },
+      { path: 'forms-toggle-switch', component: FormsToggleSwitchComponent },
+      { path: 'tabs', component: TabsComponent },
     ]
     },
     {

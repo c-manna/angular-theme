@@ -432,7 +432,6 @@ import { LeftSidebarComponent } from './layout-blueprints/left-sidebar/left-side
 import { CollapsedSidebarComponent } from './layout-blueprints/collapsed-sidebar/collapsed-sidebar.component';
 import { MinimalLayoutComponent } from './layout-blueprints/minimal-layout/minimal-layout.component';
 import { PresentationLayoutComponent } from './layout-blueprints/presentation-layout/presentation-layout.component';
-
 // Layout components
 
 import { HeaderComponent } from './layout-components/header/header.component';
@@ -454,6 +453,7 @@ import { PromoSectionComponent } from './layout-components/promo-section/promo-s
 import { ExampleWrapperSimpleComponent } from './layout-components/example-wrapper-simple/example-wrapper-simple.component';
 import { ExampleWrapperSeamlessComponent } from './layout-components/example-wrapper-seamless/example-wrapper-seamless.component';
 import { ExampleWrapperContainerComponent } from './layout-components/example-wrapper-container/example-wrapper-container.component';
+
 
 // Example components
 
@@ -936,6 +936,9 @@ import { PagesError404Component } from './example-pages/pages-error-404/pages-er
 import { ButtonsComponent } from './example-pages/buttons/buttons.component';
 import { SearchBarsComponent } from './example-pages/search-bars/search-bars.component';
 import { UtilitiesHelpersComponent } from './example-pages/utilities-helpers/utilities-helpers.component';
+import { RegularTables2Component } from './example-pages/regular-tables-2/regular-tables-2.component';
+import { FormsToggleSwitchComponent } from './example-pages/forms-toggle-switch/forms-toggle-switch.component';
+import { TabsComponent } from './example-pages/tabs/tabs.component';
 
 @NgModule({
   declarations: [
@@ -1451,7 +1454,9 @@ import { UtilitiesHelpersComponent } from './example-pages/utilities-helpers/uti
     ButtonsComponent,
     SearchBarsComponent,
     UtilitiesHelpersComponent,
-
+    RegularTables2Component,
+    FormsToggleSwitchComponent,
+    TabsComponent
   ],
   imports: [
     BrowserModule,
