@@ -14,6 +14,8 @@ import { SearchBarsComponent } from './example-pages/search-bars/search-bars.com
 import { RegularTables2Component } from './example-pages/regular-tables-2/regular-tables-2.component';
 import { FormsToggleSwitchComponent } from './example-pages/forms-toggle-switch/forms-toggle-switch.component';
 import { TabsComponent } from './example-pages/tabs/tabs.component';
+import { PaginationComponent } from './example-pages/pagination/pagination.component';
+import { RatingsComponent } from './example-pages/ratings/ratings.component';
 
 // Layouts
 import { LeftSidebarComponent } from './layout-blueprints/left-sidebar/left-sidebar.component';
@@ -33,6 +35,8 @@ const routes: Routes = [
       { path: 'regular-tables-2', component: RegularTables2Component },
       { path: 'forms-toggle-switch', component: FormsToggleSwitchComponent },
       { path: 'tabs', component: TabsComponent },
+      { path: 'pagination', component: PaginationComponent },
+      { path: 'ratings', component: RatingsComponent },
     ]
     },
     {

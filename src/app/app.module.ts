@@ -939,6 +939,8 @@ import { UtilitiesHelpersComponent } from './example-pages/utilities-helpers/uti
 import { RegularTables2Component } from './example-pages/regular-tables-2/regular-tables-2.component';
 import { FormsToggleSwitchComponent } from './example-pages/forms-toggle-switch/forms-toggle-switch.component';
 import { TabsComponent } from './example-pages/tabs/tabs.component';
+import { PaginationComponent } from './example-pages/pagination/pagination.component';
+import { RatingsComponent } from './example-pages/ratings/ratings.component';
 
 @NgModule({
   declarations: [
@@ -1456,7 +1458,9 @@ import { TabsComponent } from './example-pages/tabs/tabs.component';
     UtilitiesHelpersComponent,
     RegularTables2Component,
     FormsToggleSwitchComponent,
-    TabsComponent
+    TabsComponent,
+    PaginationComponent,
+    RatingsComponent
   ],
   imports: [
     BrowserModule,

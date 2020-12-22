@@ -96,6 +96,16 @@ export class SidebarMenuService {
           "title": "Search Bars",
           "type": "simple",
           "link": "/search-bars"
+        },
+        {
+          "title": "Pagination",
+          "type": "simple",
+          "link": "/pagination"
+        },
+        {
+          "title": "Ratings",
+          "type": "simple",
+          "link": "/ratings"
         }/* ,
       {
         "title": "Utilities & Helpers",
