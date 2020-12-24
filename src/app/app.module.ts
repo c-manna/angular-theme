@@ -941,6 +941,7 @@ import { FormsToggleSwitchComponent } from './example-pages/forms-toggle-switch/
 import { TabsComponent } from './example-pages/tabs/tabs.component';
 import { PaginationComponent } from './example-pages/pagination/pagination.component';
 import { RatingsComponent } from './example-pages/ratings/ratings.component';
+import { FormsClipboardComponent } from './example-pages/forms-clipboard/forms-clipboard.component';
 
 @NgModule({
   declarations: [
@@ -1460,7 +1461,8 @@ import { RatingsComponent } from './example-pages/ratings/ratings.component';
     FormsToggleSwitchComponent,
     TabsComponent,
     PaginationComponent,
-    RatingsComponent
+    RatingsComponent,
+    FormsClipboardComponent
   ],
   imports: [
     BrowserModule,

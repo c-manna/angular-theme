@@ -16,6 +16,7 @@ import { FormsToggleSwitchComponent } from './example-pages/forms-toggle-switch/
 import { TabsComponent } from './example-pages/tabs/tabs.component';
 import { PaginationComponent } from './example-pages/pagination/pagination.component';
 import { RatingsComponent } from './example-pages/ratings/ratings.component';
+import { FormsClipboardComponent } from './example-pages/forms-clipboard/forms-clipboard.component';
 
 // Layouts
 import { LeftSidebarComponent } from './layout-blueprints/left-sidebar/left-sidebar.component';
@@ -37,6 +38,7 @@ const routes: Routes = [
       { path: 'tabs', component: TabsComponent },
       { path: 'pagination', component: PaginationComponent },
       { path: 'ratings', component: RatingsComponent },
+      { path: 'forms-clipboard', component: FormsClipboardComponent },
     ]
     },
     {
