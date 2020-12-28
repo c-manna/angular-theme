@@ -48,6 +48,11 @@ export class SidebarMenuService {
           "title": "Chat",
           "type": "simple",
           "link": "/applications-chat"
+        },
+        {
+          "title": "Mail",
+          "type": "simple",
+          "link": "/applications-mail"
         }
       ]
     },

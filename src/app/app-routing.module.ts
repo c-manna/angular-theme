@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 // Pages
 import { DashboardDefaultComponent } from './example-pages/dashboard-default/dashboard-default.component';
 import { ApplicationsChatComponent } from './example-pages/applications-chat/applications-chat.component';
+import { ApplicationsMailComponent } from './example-pages/applications-mail/applications-mail.component';
 import { PagesLoginComponent } from './example-pages/pages-login/pages-login.component';
 import { PagesRegisterComponent } from './example-pages/pages-register/pages-register.component';
 import { PagesRecoverPasswordComponent } from './example-pages/pages-recover-password/pages-recover-password.component';
@@ -100,6 +101,7 @@ const routes: Routes = [
     component: CollapsedSidebarComponent,
     children: [
       { path: 'applications-chat', component: ApplicationsChatComponent },
+      { path: 'applications-mail', component: ApplicationsMailComponent },
     ]
     },
     {
