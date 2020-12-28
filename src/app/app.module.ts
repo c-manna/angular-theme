@@ -929,6 +929,7 @@ import { UtilitiesHelpersComposedBackgroundsComponent } from './example-componen
 
 import { DashboardDefaultComponent } from './example-pages/dashboard-default/dashboard-default.component';
 import { ApplicationsChatComponent } from './example-pages/applications-chat/applications-chat.component';
+import { ApplicationsMailComponent } from './example-pages/applications-mail/applications-mail.component';
 import { PagesLoginComponent } from './example-pages/pages-login/pages-login.component';
 import { PagesRegisterComponent } from './example-pages/pages-register/pages-register.component';
 import { PagesRecoverPasswordComponent } from './example-pages/pages-recover-password/pages-recover-password.component';
@@ -1478,6 +1479,7 @@ import { ContextMenusComponent } from './example-pages/context-menus/context-men
 
     DashboardDefaultComponent,
     ApplicationsChatComponent,
+    ApplicationsMailComponent,
     PagesLoginComponent,
     PagesRegisterComponent,
     PagesRecoverPasswordComponent,
