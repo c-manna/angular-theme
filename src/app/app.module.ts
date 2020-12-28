@@ -782,7 +782,7 @@ import { ListGroupsVariations5Component } from './example-components/ListGroups/
 import { ListGroupsVariations6Component } from './example-components/ListGroups/list-groups-variations-6/list-groups-variations-6.component';
 import { ListGroupsVariations7Component } from './example-components/ListGroups/list-groups-variations-7/list-groups-variations-7.component';
 import { ListGroupsVariations8Component } from './example-components/ListGroups/list-groups-variations-8/list-groups-variations-8.component';
-//import { LoadingIndicatorsBasicComponent } from './example-components/LoadingIndicators/loading-indicators-basic/loading-indicators-basic.component';
+import { LoadingIndicatorsBasicComponent } from './example-components/LoadingIndicators/loading-indicators-basic/loading-indicators-basic.component';
 import { LoadingIndicatorsColorsComponent } from './example-components/LoadingIndicators/loading-indicators-colors/loading-indicators-colors.component';
 import { LoadingIndicatorsBlockLoadingComponent } from './example-components/LoadingIndicators/loading-indicators-block-loading/loading-indicators-block-loading.component';
 import { LoadingIndicatorsSkeletonLoadingComponent } from './example-components/LoadingIndicators/loading-indicators-skeleton-loading/loading-indicators-skeleton-loading.component';
@@ -1331,7 +1331,7 @@ import { ContextMenusComponent } from './example-pages/context-menus/context-men
     ListGroupsVariations6Component,
     ListGroupsVariations7Component,
     ListGroupsVariations8Component,
-    //LoadingIndicatorsBasicComponent,
+    LoadingIndicatorsBasicComponent,
     LoadingIndicatorsColorsComponent,
     LoadingIndicatorsBlockLoadingComponent,
     LoadingIndicatorsSkeletonLoadingComponent,
