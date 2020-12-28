@@ -937,11 +937,39 @@ import { ButtonsComponent } from './example-pages/buttons/buttons.component';
 import { SearchBarsComponent } from './example-pages/search-bars/search-bars.component';
 import { UtilitiesHelpersComponent } from './example-pages/utilities-helpers/utilities-helpers.component';
 import { RegularTables2Component } from './example-pages/regular-tables-2/regular-tables-2.component';
-import { FormsToggleSwitchComponent } from './example-pages/forms-toggle-switch/forms-toggle-switch.component';
-import { TabsComponent } from './example-pages/tabs/tabs.component';
 import { PaginationComponent } from './example-pages/pagination/pagination.component';
 import { RatingsComponent } from './example-pages/ratings/ratings.component';
+
 import { FormsClipboardComponent } from './example-pages/forms-clipboard/forms-clipboard.component';
+import { FormsColorpickerComponent } from './example-pages/forms-colorpicker/forms-colorpicker.component';
+//import { FormsDatepickerComponent } from './example-pages/forms-datepicker/forms-datepicker.component';
+import { FormsDualListboxComponent } from './example-pages/forms-dual-listbox/forms-dual-listbox.component';
+import { FormsInputMaskComponent } from './example-pages/forms-input-mask/forms-input-mask.component';
+import { FormsInputSelectComponent } from './example-pages/forms-input-select/forms-input-select.component';
+import { FormsSliderComponent } from './example-pages/forms-slider/forms-slider.component';
+import { FormsTextareaAutosizeComponent } from './example-pages/forms-textarea-autosize/forms-textarea-autosize.component';
+import { FormsTimepickerComponent } from './example-pages/forms-timepicker/forms-timepicker.component';
+import { FormsToggleSwitchComponent } from './example-pages/forms-toggle-switch/forms-toggle-switch.component';
+import { FormsTypeaheadComponent } from './example-pages/forms-typeahead/forms-typeahead.component';
+import { FormsUploadComponent } from './example-pages/forms-upload/forms-upload.component';
+import { FormsValidationComponent } from './example-pages/forms-validation/forms-validation.component';
+import { FormsWysiwygEditorComponent } from './example-pages/forms-wysiwyg-editor/forms-wysiwyg-editor.component';
+
+import { AccordionsComponent } from './example-pages/accordions/accordions.component';
+import { ModalsComponent } from './example-pages/modals/modals.component';
+import { NotificationsComponent } from './example-pages/notifications/notifications.component';
+import { DragDropComponent } from './example-pages/drag-drop/drag-drop.component';
+//import { CalendarsComponent } from './example-pages/calendars/calendars.component';
+import { CarouselsComponent } from './example-pages/carousels/carousels.component';
+import { PopoversComponent } from './example-pages/popovers/popovers.component';
+import { TooltipsComponent } from './example-pages/tooltips/tooltips.component';
+import { TreeViewComponent } from './example-pages/tree-view/tree-view.component';
+import { TabsComponent } from './example-pages/tabs/tabs.component';
+import { GuidedToursComponent } from './example-pages/guided-tours/guided-tours.component';
+import { ImageCropComponent } from './example-pages/image-crop/image-crop.component';
+import { LoadingIndicatorsComponent } from './example-pages/loading-indicators/loading-indicators.component';
+import { CountUpComponent } from './example-pages/count-up/count-up.component';
+import { ContextMenusComponent } from './example-pages/context-menus/context-menus.component';
 
 @NgModule({
   declarations: [
@@ -1462,7 +1490,33 @@ import { FormsClipboardComponent } from './example-pages/forms-clipboard/forms-c
     TabsComponent,
     PaginationComponent,
     RatingsComponent,
-    FormsClipboardComponent
+    FormsClipboardComponent,
+    FormsColorpickerComponent,
+    //FormsDatepickerComponent,
+    FormsDualListboxComponent,
+    FormsInputMaskComponent,
+    FormsInputSelectComponent,
+    FormsSliderComponent,
+    FormsTextareaAutosizeComponent,
+    FormsTimepickerComponent,
+    FormsTypeaheadComponent,
+    FormsUploadComponent,
+    FormsValidationComponent,
+    FormsWysiwygEditorComponent,
+
+    AccordionsComponent,
+    ModalsComponent,
+    NotificationsComponent,
+    DragDropComponent,
+    CarouselsComponent,
+    PopoversComponent,
+    TreeViewComponent,
+    TooltipsComponent,
+    GuidedToursComponent,
+    ImageCropComponent,
+    LoadingIndicatorsComponent,
+    CountUpComponent,
+    ContextMenusComponent
   ],
   imports: [
     BrowserModule,
